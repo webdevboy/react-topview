@@ -1,0 +1,10 @@
+@import './destinations.scss';
+
+.header {
+  padding: 21px 20px 15px 15px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.161);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}

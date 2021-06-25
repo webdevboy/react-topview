@@ -1,0 +1,66 @@
+.destionations {
+  padding-left: 15px;
+  position: relative;
+  .destionation-field-container {
+    padding-left: 40px;
+    padding-right: 35px;
+    position: relative;
+    .destionation-field {
+      background: transparent;
+      border: 1px solid #BFBFBF;
+      font-size: 15px;
+      line-height: 20px;
+      outline: none;
+      border-radius: 6px;
+      padding: 8px 16px;
+      margin-bottom: 6px;
+      transition: all 0.3s;
+      width: 100%;
+      &::placeholder {
+        color: #BFBFBF;
+      }
+      &:focus {
+        border: 1px solid #484848;
+      }
+    }
+    .destionation-field__delete {
+      position: absolute;
+      right: 8px;
+      top: 10px;
+      width: 18px;
+    }
+    &:last-child {
+      .destionation-field {
+        margin-bottom: 0;
+      }
+      .destionation-marker {
+        .destionation-marker__track {
+          display: none;
+        }
+      }
+    }
+  }
+  .destinations__back {
+    width: 18px;
+    position: absolute;
+    top: 9px;
+    left: 0px;
+  }
+  .destionations__switch {
+    position: absolute;
+    right: 0;
+    top: 29px;
+    width: 25px;
+    z-index: 2;
+  }
+  .destionations__add {
+    display: flex;
+    margin: 10px 0 13px 0;
+    padding-left: 14px;
+    font-size: 13px;
+    color: #5A5A5A;
+    img {
+      margin-right: 22px;
+    }
+  }
+}
